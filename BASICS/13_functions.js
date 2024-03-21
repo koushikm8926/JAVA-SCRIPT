@@ -25,8 +25,12 @@ function myName(){
 // console.log(result);
 
 function userLogin(username){
+    if(!username){
+        console.log("please enter a user name");
+        return
+    }
     return`${username} is logged in successfully`
 }
 
-const name = userLogin("koushik")
+const name = userLogin()
 console.log(name);
