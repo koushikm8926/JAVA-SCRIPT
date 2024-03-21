@@ -10,8 +10,16 @@ function myName(){
 
 //myName()
 
-function addTwoNumber(number1,number2){
-    console.log(number1+number2);
-}
+// function addTwoNumber(number1,number2){
+//     console.log(number1+number2);
+// }
 
-addTwoNumber(1,6) // we should always check the number that if it is a number o
+
+// addTwoNumber(1,6) // we should always check the number that if it is a number o
+
+function addTwoNumber(number1,number2){
+    let result = number1+number2
+    return result
+}
+const result = addTwoNumber(9,2)
+console.log(result);
