@@ -34,8 +34,20 @@ const obj4= {...obj1,...obj2}   //sprade operations
 //console.log(obj4);  //both wiill retuen same output
 //console.log(obj3);  //both wiill retuen same output
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+/*********************************object destructure **********************************/
+const data = {
+    name:'koushik',
+    class:'masters',
+    interest:'mobile app development',
+}
+
+const {interest:specilazion}= data
+
+//console.log(interest);
+console.log(specilazion);
