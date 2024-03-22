@@ -40,12 +40,19 @@ function myName(){
 // }
 // console.log(cartValueCalculator(300,200,2000));
 
-const data={
-    name:'koushik mondal',
-    school:'fsn',
-}
-function cartValueCalculator(anyobject){
-         console.log(`my name is ${anyobject.name}`);
-     }
+// const data={
+//     name:'koushik mondal',
+//     school:'fsn',
+// }
+// function cartValueCalculator(anyobject){
+//          console.log(`my name is ${anyobject.name}`);
+//      }
 
-console.log(cartValueCalculator(data));
+// console.log(cartValueCalculator(data));
+
+const array=[100,200,300,400]
+
+function arrayReturn(anyarray){
+    console.log(anyarray[2]);
+}
+arrayReturn(array);
