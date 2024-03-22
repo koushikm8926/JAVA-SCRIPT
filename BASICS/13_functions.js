@@ -24,13 +24,18 @@ function myName(){
 // const result = addTwoNumber(9,2)
 // console.log(result);
 
-function userLogin(username){
-    if(!username){
-        console.log("please enter a user name");
-        return
-    }
-    return`${username} is logged in successfully`
-}
+// function userLogin(username){
+//     if(!username){
+//         console.log("please enter a user name");
+//         return
+//     }
+//     return`${username} is logged in successfully`
+// }
 
-const name = userLogin()
-console.log(name);
+// const name = userLogin()
+//console.log(name);
+
+function cartValueCalculator(...value){
+    return value
+}
+console.log(cartValueCalculator(300,200,2000));
