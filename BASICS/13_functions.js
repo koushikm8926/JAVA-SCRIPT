@@ -35,7 +35,17 @@ function myName(){
 // const name = userLogin()
 //console.log(name);
 
-function cartValueCalculator(...value){
-    return value
+// function cartValueCalculator(...value){
+//     return value
+// }
+// console.log(cartValueCalculator(300,200,2000));
+
+const data={
+    name:'koushik mondal',
+    school:'fsn',
 }
-console.log(cartValueCalculator(300,200,2000));
+function cartValueCalculator(anyobject){
+         console.log(`my name is ${anyobject.name}`);
+     }
+
+console.log(cartValueCalculator(data));
