@@ -49,9 +49,24 @@ const userData={
 
 // console.log(this);
 
-function randorm (){
-    const username = "koushik"
-    console.log(this.username);
-}
+// function randorm (){
+//     const username = "koushik"
+//     console.log(this.username);
+// }
 
-randorm()
+// randorm()
+
+// const random =()=>{
+//     let username="koushik"
+//     console.log(this.username);
+// }
+// random()
+
+// const addTwo=(num1,  num2)=>{
+//     return num1+num2
+// }
+
+
+//implecit return
+const addTwo=(num1,num2)=>num1+num2
+console.log(addTwo(3,5));
