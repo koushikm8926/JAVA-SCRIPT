@@ -39,7 +39,19 @@ const userData={
     username:'koushik',
     massege:function(){
         console.log(`${this.username}, wellcome to the website`);
+        // console.log(this);
     }
 }
 
-console.log(userData.massege());
+// console.log(userData.massege());
+// userData.username="rahul"
+// userData.massege()
+
+// console.log(this);
+
+function randorm (){
+    const username = "koushik"
+    console.log(this.username);
+}
+
+randorm()
