@@ -22,13 +22,24 @@
 // }
 // one()
 
-console.log(one(5))
+// console.log(one(5))
 
-function one(num){
-    return num+1
+// function one(num){
+//     return num+1
+// }
+
+// second(4)
+// const second= function(num){
+//     return num
+// }
+
+/**************************this keyword and object************************************************/
+
+const userData={
+    username:'koushik',
+    massege:function(){
+        console.log(`${this.username}, wellcome to the website`);
+    }
 }
 
-second(4)
-const second= function(num){
-    return num
-}
+console.log(userData.massege());
