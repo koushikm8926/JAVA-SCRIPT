@@ -25,7 +25,11 @@ if (Object.keys(rollnumber).length === 0 ) {
 //let val1 = 10;
 let val1 = null ?? 5
  let val2 = undefined ?? 10
-console.log(val1);
-console.log(val2);
+//console.log(val1);
+//console.log(val2);
 let val3 = null ?? 20 ?? 30 
-console.log(val3);
+//console.log(val3);
+
+//terniry operator 
+let balance = 100;
+balance >80 ? console.log("price is greater than 80") : console.log( " price is less than 80");
