@@ -26,5 +26,16 @@ for (let index = 1; index < 10; index++) {
        // console.log("number detected 6");
        continue;
     }
-    console.log(index); 
+    //console.log(index); 
+}
+
+const name= "kouhsik mondal"
+
+for (const iterator of name) {
+    //console.log(iterator);
+}
+
+const array= [1,2,3,5,6,7,8,9]
+for (const iterator of array) {
+    console.log(iterator);
 }
