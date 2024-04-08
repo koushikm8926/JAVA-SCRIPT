@@ -55,4 +55,8 @@ map.set("IN", "india")
 map.set('sp', 'spain')
 map.set("Fr", "france")
 
-console.log(map)
+//console.log(map)
+
+for (const [key, value] of map) {
+    console.log(key, ":" ,value);
+}
