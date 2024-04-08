@@ -13,6 +13,15 @@ const myArray =["koushikl", "rahul", "mohit"]
 
 for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
-    console.log(element);
+    //console.log(element);
+    
+}
+
+for (let index = 1; index < 10; index++) {
+    if(index == 6){
+        console.log("number reached 6");
+        break;
+    }
+    console.log(index);
     
 }
