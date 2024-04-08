@@ -37,5 +37,22 @@ for (const iterator of name) {
 
 const array= [1,2,3,5,6,7,8,9]
 for (const iterator of array) {
-    console.log(iterator);
+    //console.log(iterator);
 }
+
+
+const object = {
+    firstName:"koushik",
+    lastName:'Mondal',
+}
+
+for (const [key, value] in object) {
+    //console.log(key, ":" ,value);
+}
+
+const map = new Map()
+map.set("IN", "india")
+map.set('sp', 'spain')
+map.set("Fr", "france")
+
+console.log(map)
