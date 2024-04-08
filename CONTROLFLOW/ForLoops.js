@@ -19,8 +19,16 @@ for (let index = 0; index < myArray.length; index++) {
 
 for (let index = 1; index < 10; index++) {
     if(index == 6){
-        console.log("number reached 6");
+        //console.log("number reached 6");
         break;
+    }
+    //console.log(index);
+    
+}
+for (let index = 1; index < 10; index++) {
+    if(index == 6){
+        console.log("number detected 6");
+       continue;
     }
     console.log(index);
     
