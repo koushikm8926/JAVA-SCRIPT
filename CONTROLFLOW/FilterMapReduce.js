@@ -20,10 +20,18 @@ numarray.forEach((num)=>{
 
 const array = [10,20,30,40,50,60,70,80]
 
-const newarray =array.map((number)=>{
-    return(
-        number = number +10
-    )
-})
-
+let newarray= array
+            .map((num)=>num = num*2)
+            .map((num)=>num=num+2)
+            .filter((num)=> num>40)
 console.log(newarray);
+
+
+
+// const newarray =array.map((number)=>{
+//     return(
+//         number = number +10
+//     )
+// })
+
+//console.log(newarray);
