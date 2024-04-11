@@ -24,7 +24,7 @@ let newarray= array
             .map((num)=>num = num*2)
             .map((num)=>num=num+2)
             .filter((num)=> num>40)
-console.log(newarray);
+//console.log(newarray);
 
 
 
@@ -35,3 +35,16 @@ console.log(newarray);
 // })
 
 //console.log(newarray);
+
+const number =[1,2,3,4]
+
+let accumulator=0;
+const SumOfArrayNum= number.reduce(function (accumulator, currentvalue){
+   console.log(`accumulator is ${accumulator} and  current value is ${currentvalue}`);
+    return accumulator+currentvalue
+    
+},accumulator)
+
+console.log(`Sum of total number of arrai is ${SumOfArrayNum}`)
+
+
