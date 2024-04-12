@@ -38,13 +38,16 @@ let newarray= array
 
 const number =[1,2,3,4]
 
-let accumulator=0;
-const SumOfArrayNum= number.reduce(function (accumulator, currentvalue){
-   console.log(`accumulator is ${accumulator} and  current value is ${currentvalue}`);
-    return accumulator+currentvalue
+// let accumulator=0;
+// const SumOfArrayNum= number.reduce(function (accumulator, currentvalue){
+//    console.log(`accumulator is ${accumulator} and  current value is ${currentvalue}`);
+//     return accumulator+currentvalue
     
-},accumulator)
+// },accumulator)
 
-console.log(`Sum of total number of arrai is ${SumOfArrayNum}`)
+// console.log(`Sum of total number of arrai is ${SumOfArrayNum}`)
 
 
+const sum=number.reduce((acc,currentvalue)=>acc+currentvalue,0)
+
+console.log(sum);
