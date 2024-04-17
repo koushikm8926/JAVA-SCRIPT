@@ -15,11 +15,21 @@
 </body>
 <script>
     const parent= document.querySelector('.parent')
+    
     //console.log(parent);
     //console.log(parent.children);
     //console.log(parent.children[0].innerText);
-    for (let index = 0; index < parent.children.length; index++) {
-        console.log (parent.children[index].innerText);
-    }
+    // for (let index = 0; index < parent.children.length; index++) {
+    //     console.log (parent.children[index].innerText);
+    // }
+
+    //console.log(parent.children[1].innerText)
+    //console.log(parent.firstElementChild.innerText)
+    //console.log(parent.lastElementChild.innerText)
+
+        const dayone= document.querySelector('.day')
+        console.log(dayone);
+        console.log(dayone.parentElement);
+        console.log(dayone.nextElementSibling);
 </script>
 </html>
