@@ -24,8 +24,16 @@
     //remove
 
    const lastelement= document.querySelector("li:last-child")
-   console.log(lastelement)
+  // console.log(lastelement)
    lastelement.remove()
+
+   //edit
+
+ const firstelement=  document.querySelector('li:first-child')
+ console.log(firstelement);
+ const newelement=document.createElement('li')
+ newelement.innerHTML="typescript"
+    firstelement.replaceWith(newelement)
 
 </script>
 </html>
