@@ -16,6 +16,14 @@
 </body>
 
 <script>
+
+   document.querySelector('#images').addEventListener('click', function (e) {
+            if (e.target.tagName ==='IMG') {
+                let element= e.target.parentNode;
+            element.remove();
+            }
+   }, false)
+
     // document.getElementById('japan').onclick=function(){
     //     alert('japan clicked')
     // }
