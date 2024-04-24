@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body style="background-color: #414141; color: white;">
-    <ul >
+    <ul id="images" >
         <li><img width="200px" id="photoshop" alt="" src="https://img-b.udemycdn.com/course/750x422/5663964_b81c_3.jpg" ></li>
         <li><img width="200px" id="japan" alt="" src="https://static.toiimg.com/photo/107025787.cms"  ></li>
         <li><img width="200px" id="river" alt="" src="https://www.thomascook.in/blog/wp-content/uploads/2023/08/Ganges.jpg"></li>   
@@ -20,9 +20,29 @@
     //     alert('japan clicked')
     // }
 
-    document.getElementById('japan').addEventListener('click', function(){
-        alert('japan clicked')
-    })
+    // document.getElementById('japan').addEventListener('click', function(){
+    //     alert('japan clicked')
+    // })
+
+    // document.getElementById('japan').addEventListener('click', function(e){
+    //     console.log(e);
+    // }, false)
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log('ul list clicked');
+
+    // }, false)
+
+    // document.getElementById('japan').addEventListener('click', function(e){
+    //     console.log('japan clicked');
+    //     e.stopPropagation()
+    // }, false)
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     console.log('google link clicked');
+    // }, false)
+
 
 </script>
 
