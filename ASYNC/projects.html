@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Projects</title>
+  </head>
+  <body>
+    <h1>Mini Project</h1>
+    <button id="start" onclick="startinterval()">Start</button>
+    <button id="Stop" onclick="stopinterval()">Stop</button>
+  </body>
+  <script>
+
+        let interval;
+
+        function startinterval(){
+            interval= setInterval(()=>{
+            console.log('hello world');
+       },1000)
+    }
+
+    function stopinterval(){
+        clearInterval(interval)
+        //console.log('stop pressed');
+    }
+  </script>
+</html>
