@@ -13,6 +13,11 @@
     const myname= () => {
         console.log("koushik mondal");
     }
-    setTimeout(myname,2000);
+   const namechenge= setTimeout(myname,2000);
+
+    document.querySelector('#stop').addEventListener('click', ()=>{
+       clearTimeout(namechenge)
+       console.log('stopped');
+},false)
 </script>
 </html>
